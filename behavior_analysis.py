@@ -15,7 +15,7 @@ https://hyunlee103.tistory.com/36
 """
 
 # 문자전송시 설치
-!pip install twilio
+# pip install twilio
 
 import numpy as np
 import librosa, librosa.display 
