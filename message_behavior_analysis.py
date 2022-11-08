@@ -3,8 +3,8 @@ import librosa, librosa.display
 import matplotlib.pyplot as plt
 
 #피에조부저
-# import RPi.GPIO as GPIO
-# import time
+import RPi.GPIO as GPIO
+import time
 
 # 문자전송
 import datetime
