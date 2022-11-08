@@ -44,7 +44,7 @@ if sr>= 0.04:
 
   # 문자 전송
   account_sid = 'AC119bdb4229d503ede749ebff8cbfe2f6'
-  auth_token = '183b2224b2486342cfaab6bbb5314451'
+  auth_token = '8955b71ac558117ba5d57832cc3cc1bb'
   client = Client(account_sid, auth_token)
       
   message = client.messages.create(
