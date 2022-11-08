@@ -29,18 +29,18 @@ plt.ylim(-0.075, 0.06)
 # 신체 이상 감지
 if sr>= 0.04:
   print("warning")
-    # 경고음
-    buzzer = 18
-    GPIO.setmode(GPIO.BCM)
-    GPIO.setup(buzzer, GPIO.OUT)
-    GPIO.setwarnings(False)
-    
-    pwn=GPIO.PWM(buzzer, 262)
-    pwn.start(50.0)
-    time.sleep(1.5)
-    
-    pwn.stop()
-    GPIO.cleanup()
+  # 경고음
+  buzzer = 18
+  GPIO.setmode(GPIO.BCM)
+  GPIO.setup(buzzer, GPIO.OUT)
+  GPIO.setwarnings(False)
+  
+  pwn=GPIO.PWM(buzzer, 262)
+  pwn.start(50.0)
+  time.sleep(1.5)
+  
+  pwn.stop()
+  GPIO.cleanup()
 
   # 문자 전송
   account_sid = 'AC119bdb4229d503ede749ebff8cbfe2f6'
